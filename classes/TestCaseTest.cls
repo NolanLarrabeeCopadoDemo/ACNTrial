@@ -1,12 +1,9 @@
 @isTest
 public class TestCaseTest {
-    
-    
-    @isTest
+
+     @isTest
     private static void codeTest(){
-        Decimal res = TestCase.TestCase(23);
+        Decimal res = TestCase.CodeCoverage(23);
         system.assertEquals(3.60, res);
     }
-    
-
 }
