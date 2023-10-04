@@ -13,10 +13,7 @@ public class CodeCoverage {
             
               System.debug('Value is 23');
          }
-        else{
-            v =10;
-           System.debug('Value is not 23');
-        }
+        
         decimal result=(value-5)/5;
         return result.setScale(2); 
     }
