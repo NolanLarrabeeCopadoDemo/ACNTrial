@@ -1,6 +1,6 @@
 public class TestCase {
-    
-       public static decimal TestCase(decimal value) {
+
+     public static decimal CodeCoverage(decimal value) {
         Long startingTime = System.now().getTime();
         Long startTime = DateTime.now().getTime();
         Long finalTime = DateTime.now().getTime();
@@ -13,12 +13,8 @@ public class TestCase {
             
               System.debug('Value is 23');
          }
-        else{
-            v =10;
-           System.debug('Value is not 23');
-        }
+        
         decimal result=(value-5)/5;
         return result.setScale(2); 
     }
-
 }
