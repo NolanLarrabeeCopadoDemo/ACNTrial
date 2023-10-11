@@ -142,6 +142,11 @@
         <label>Shipping</label>
     </standardValue>
     <standardValue>
+        <fullName>Software and IT</fullName>
+        <default>false</default>
+        <label>Software and IT</label>
+    </standardValue>
+    <standardValue>
         <fullName>Technology</fullName>
         <default>false</default>
         <label>Technology</label>
